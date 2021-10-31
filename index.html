@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tree</title>
+    <style>
+      .container {
+        position: relative;
+        width: 480px;
+        height: 380px;
+        margin: auto;
+        margin-top: 20vh;
+        background: #3b5a4a;
+        z-index: -2;
+      }
+
+      .tree {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 13%;
+        top: 5%;
+      }
+
+      .t3 {
+        position: absolute;
+        width: 66%;
+        height: 36%;
+        bottom: 20%;
+        left: 3.5%;
+        background: #3c93ab;
+        clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+      }
+
+      .t2 {
+        position: absolute;
+        width: 66%;
+        height: 36%;
+        bottom: 35%;
+        left: 3.5%;
+        clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+        background:#d2b277;
+        z-index: 2;
+      }
+
+      .t1 {
+        position: absolute;
+        width: 66%;
+        height: 36%;
+        bottom: 50%;
+        left: 3.5%;
+        background: #daddcb;
+        clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+        z-index: 3;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+        <div class="tree">
+      <div class="t1"></div>
+      <div class="t2"></div>
+      <div class="t3"></div>
+    </div>
+    </div>
+  </body>
+</html>
